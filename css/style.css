@@ -3,13 +3,13 @@
 body {
     margin: 0px;
     background-color: #ECF0F5;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 
 /* header  */
 
 header>div.app-header {
-    /* text-align: center; */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -73,9 +73,7 @@ div.navigation {
 
 .nav-animation {
     -webkit-animation-name: example;
-    /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 1s;
-    /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration: 1s;
 }
@@ -111,7 +109,6 @@ div.navigation>ol {
     width: 220px;
     text-align: start;
     margin-top: 10px;
-    /* display: none; */
 }
 
 div.navigation>ol>li {
@@ -140,10 +137,6 @@ div.navigation>ol>li:hover {
     cursor: pointer;
 }
 
-.display-none {
-    display: none;
-}
-
 div.navigation>ol>li.active>a {
     color: white;
 }
@@ -157,16 +150,13 @@ div.navigation>ol>li.active {
 
 .article {
     flex-grow: 1;
-    /* border: 1px solid black; */
     position: relative;
     overflow: auto;
 }
 
 .article-animation {
     -webkit-animation-name: example1;
-    /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 3s;
-    /* Safari 4.0 - 8.0 */
     animation-name: example1;
     animation-duration: 3s;
 }
@@ -187,14 +177,4 @@ div.navigation>ol>li.active {
     40% {
         left: 0px;
     }
-}
-
-.content-container {
-    border: 1px solid black;
-    box-sizing: border-box;
-}
-
-.row {
-    width: 100%;
-    /* border: 1px solid black; */
 }
