@@ -67,8 +67,7 @@ div.text-right {
 
 .box {
     box-shadow: -3px 5px 35px 3px #ccc;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 3%;
 }
 
 .box-header {
@@ -88,10 +87,46 @@ div.text-right {
     color: #0088cc;
     font-size: 15px;
     padding-left: 10px;
+    padding-right: 10px;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .zero-margin {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.responsive-table {
+    overflow-x: auto;
+}
+
+.processed {
+    color: white;
+    display: block;
+    width: 80px;
+    padding: 3px;
+    height: 20px;
+    text-align: center;
+    background-color: #0275d8;
+}
+
+.rejected {
+    color: white;
+    display: block;
+    width: 80px;
+    padding: 3px;
+    height: 20px;
+    text-align: center;
+    background-color: #d9534f;
+}
+
+.delivered {
+    color: white;
+    display: block;
+    padding: 3px;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    background-color: #5cb85c;
 }
