@@ -51,7 +51,15 @@ div.text-right {
 }
 
 .primary {
-    color: #0088cc;
+    background-color: #0275d8;
+}
+
+.success {
+    background-color: #5cb85c;
+}
+
+.black {
+    background-color: black;
 }
 
 
@@ -129,4 +137,79 @@ div.text-right {
     height: 20px;
     text-align: center;
     background-color: #5cb85c;
+}
+
+.item-container {
+    border: 1px solid rgba(204, 204, 204, 0.671);
+    box-sizing: border-box;
+    
+}
+
+.item-name {
+
+    background-color: white;
+    padding: 20px 10px 10px 10px;
+
+}
+
+.item-image {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid white; */
+    padding: 10px 5px 5px 5px;
+    background-color: white;
+}
+
+.item-rate {
+    color: #0275d8;
+    padding: 20px 10px 10px 10px;
+    font-weight: 600;
+    font-size: 18px;;
+    background-color: white;
+}
+
+.item-image img {
+    width: 180px;
+    height: 180px;
+}
+
+.button {
+    padding: 5px;
+    cursor: pointer;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+.btn {
+    border: 0px;
+    height: 35px;
+    width: 80px;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+}
+
+.btn-success:hover {
+    background-color: #318331;
+}
+
+.customer-name {
+    color: #0275d8;
+    text-decoration-line: none;
+}
+
+.product-link {
+    text-decoration-line: none;
+    color: black;
+}
+
+.text-box {
+    height: 30px;
+    width: 230px;
+}
+
+.pull-right {
+    float: right;   
 }
