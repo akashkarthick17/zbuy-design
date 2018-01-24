@@ -17,3 +17,8 @@ function navigationMenu() {
 document.getElementById("navigation").addEventListener('click', function(event) {
     console.log(event.target);
 });
+
+
+function shoppingCart() {
+    window.location.href="shopping-cart.html";
+}

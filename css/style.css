@@ -45,15 +45,21 @@ header>div.app-menu {
 }
 
 .profile-icon {
-    margin-right: 80px;
+    margin-right: 0px;
 }
 
-.notification-icon {
-    margin-right: 20px;
+.notification-icon, 
+.cart-icon {
+    margin-right: 0px;
+}
+
+.cart-icon {
+    position: relative;
 }
 
 .notification-icon,
-.profile-icon {
+.profile-icon,
+.cart-icon {
     float: right;
     display: block;  /* block due to float right */
     padding: 12px;
@@ -70,6 +76,12 @@ header>div.app-menu {
     height: 100vh;
 }
 
+.body-container-customer {
+    overflow: auto;
+    display: flex;
+    height: 100vh;
+ 
+}
 
 /* navigation-container */
 
@@ -164,8 +176,16 @@ div.navigation>ol>li.active {
     overflow: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
+}
+
+.article-customer {
+    position: relative;
+    overflow: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    width: 100%;
 }
 
 .article-animation {
