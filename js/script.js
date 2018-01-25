@@ -22,3 +22,7 @@ document.getElementById("navigation").addEventListener('click', function(event) 
 function shoppingCart() {
     window.location.href="shopping-cart.html";
 }
+
+function homePage() {
+    window.href.location= "customer-login/orders.html";
+}

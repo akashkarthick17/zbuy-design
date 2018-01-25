@@ -368,6 +368,16 @@ div.text-right {
     position: absolute;
 }
 
+.home-icon {
+    font-size: 20px;
+    color: #0275d8;
+}
+
+.remove-link-style{
+    text-decoration-line: none;
+    color: black;
+}
+
 .profile-padding {
     padding:10px 20px 10px 20px;
 }
@@ -389,6 +399,10 @@ div.text-right {
 
 .padding-2 {
     padding-top: 6px;
+}
+
+.padding-10 {
+    padding: 10px;
 }
 
 .notification-overflow {
@@ -501,3 +515,33 @@ div.text-right {
     width: 100%;
     text-align: left;
 }
+
+.round-border-5 {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.shadow {
+    box-shadow: -3px 5px 15px 3px #ccc;   
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+.padding-top-1 {
+    padding-top: 8px; 
+}
+
+.padding-left-1{
+    padding-left: 15px; 
+}
+
+.delete-cart-icon {
+    position: absolute;
+    float: right;
+    right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
