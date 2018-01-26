@@ -11,6 +11,9 @@
     .add-product {
         padding-top: 20px;
     }
+    .profile-icon {
+        margin-right: 0px;
+    }
     .col-xs-1 {
         width: 8.33%;
     }
@@ -224,4 +227,4 @@
     .col-lg-12 {
         width: 100%;
     }
-}
+}   

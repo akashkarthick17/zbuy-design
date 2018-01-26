@@ -45,7 +45,8 @@ header>div.app-menu {
 }
 
 .profile-icon {
-    margin-right: 0px;
+    margin-right: 30px;
+    /* margin-righ  t: 20px; */
 }
 
 .notification-icon, 
