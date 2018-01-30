@@ -43,7 +43,9 @@
     height: 320px;
 }
 
+
 /* font-sizing */
+
 .font-16 {
     font-size: 16px;
 }
@@ -67,6 +69,7 @@
 .font-26 {
     font-size: 26px;
 }
+
 
 /* Custom Styling */
 
@@ -93,18 +96,19 @@ div.text-right {
 .color-black {
     color: black;
 }
-   
+
 .color-primary {
     color: #0275d8;
 }
 
-.color-white{
+.color-white {
     color: white;
 }
 
 .color-success {
     color: #5cb85c;
 }
+
 
 /* box styling */
 
@@ -183,15 +187,27 @@ div.text-right {
 }
 
 .item-container {
-    padding: 6px;
-    margin-right: 10px;
-    box-shadow: 16px 35px 55px 13px rgba(204, 204, 204, 0.651);
-    /* border: 1px solid rgba(204, 204, 204, 0.671); */
-    box-sizing: border-box;
+    border-radius: 15px;
+    margin-left: 9px;
+    overflow: hidden;
+    margin-top: 10px;
+    box-shadow: 10px 8px 25px 5px rgba(59, 58, 58, 0.383);
+    height: 330px;
+    background-color: white;
+}
+
+.item-container:hover {
+    border-radius: 15px;
+    margin-left: 9px;
+    overflow: hidden;
+    margin-top: 10px;
+    box-shadow: 0px 0px 0px 0px rgba(51, 46, 46, 0.541);
+    height: 330px;
+    background-color: white;
 }
 
 .item-name {
-    display: block; 
+    display: block;
     background-color: white;
     padding: 20px 10px 10px 10px;
 }
@@ -199,7 +215,6 @@ div.text-right {
 .item-image {
     display: flex;
     justify-content: center;
-    /* border: 1px solid rgb(0, 0, 0); */
     padding: 10px 5px 5px 5px;
     background-color: white;
 }
@@ -329,12 +344,10 @@ div.text-right {
 
 .profile-list li:hover {
     background-color: #f1f1f1de;
-    
 }
 
 .profile-icon:hover {
     background-color: #0d7eb6;
-    
 }
 
 .profile-icon:hover .menu-list {
@@ -376,13 +389,13 @@ div.text-right {
     color: #0275d8;
 }
 
-.remove-link-style{
+.remove-link-style {
     text-decoration-line: none;
     color: black;
 }
 
 .profile-padding {
-    padding:10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 .notification-content {
@@ -418,7 +431,7 @@ div.text-right {
     font-size: 15px;
     border-radius: 19px;
     border: 0px;
-    outline: none; 
+    outline: none;
     background: white;
     padding: 2px 2px 3px 4px;
 }
@@ -435,7 +448,7 @@ div.text-right {
 }
 
 .margin-1 {
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .center {
@@ -506,9 +519,7 @@ div.text-right {
     padding-left: 10px;
 }
 
-
-
-.cart-image  {
+.cart-image {
     height: 150px;
     width: 150px;
 }
@@ -525,7 +536,7 @@ div.text-right {
 }
 
 .shadow {
-    box-shadow: -3px 5px 15px 3px #ccc;   
+    box-shadow: -3px 5px 15px 3px #ccc;
 }
 
 .align-top {
@@ -533,11 +544,11 @@ div.text-right {
 }
 
 .padding-top-1 {
-    padding-top: 8px; 
+    padding-top: 8px;
 }
 
-.padding-left-1{
-    padding-left: 15px; 
+.padding-left-1 {
+    padding-left: 15px;
 }
 
 .delete-cart-icon {
@@ -547,4 +558,3 @@ div.text-right {
     font-size: 20px;
     cursor: pointer;
 }
-
